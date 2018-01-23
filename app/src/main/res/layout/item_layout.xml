@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/threeclimbers"
+        android:scaleType="fitXY"/>
+    <LinearLayout android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#4000">
+
+        <TextView android:text="Horse Riding"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South Nepal Street"
+            android:gravity="center_vertical"
+            android:textColor="#FFF"
+            android:drawableLeft="@drawable/ic_place_black_24dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
